@@ -1,0 +1,35 @@
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.inline-ex {
+  background-color: gray;
+  /* display: inline; */
+}
+/* parent child */
+.inline-ex li {
+  display: inline;
+  height: 20px;
+  width: 100px;
+  background-color: rgb(136, 136, 185);
+}
+.inline-b-ex {
+  background-color: aqua;
+}
+.inline-b-ex li {
+  display: inline-block;
+  height: 20px;
+  width: 100px;
+  background-color: rgb(136, 136, 185);
+}
+.block-ex {
+  background-color: burlywood;
+}
+.block-ex li {
+  display: block;
+  height: 50px;
+  width: 100px;
+  background-color: rgb(136, 136, 185);
+}
