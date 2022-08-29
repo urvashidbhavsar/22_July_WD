@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .outer {
+        margin: 20px auto;
+      }
+      img {
+        height: 200px;
+        width: 300px;
+      }
+      @keyframes image1 {
+        from {
+          height: 200px;
+          width: 300px;
+        }
+        to {
+          height: 250px;
+          width: 350px;
+        }
+      }
+      .img1 {
+        animation: image1 2s ease 1s infinite;
+        /* animation: name duration timing-function delay iteration-count direction */
+        /* fill-mode; */
+      }
+      @keyframes image2 {
+        from {
+          height: 200px;
+          width: 300px;
+        }
+        to {
+          height: 250px;
+          width: 350px;
+          border-radius: 50px;
+          border: 2px solid red;
+        }
+      }
+      .img2 {
+        animation: image2 2s ease 1s infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="">
+        <img src="images/animal2.jpg" alt="" class="img1" />
+      </div>
+      <div class="">
+        <img src="images/animation.jpg" alt="" class="img2" />
+      </div>
+    </div>
+  </body>
+</html>

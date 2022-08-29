@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        height: 100px;
+        width: 100px;
+        margin: 10px 0 0 50px;
+        background-color: aqua;
+        border: 1px solid rebeccapurple;
+      }
+      @keyframes move1 {
+        from {
+          height: 100px;
+          width: 100px;
+        }
+        to {
+          margin: 10px 0 0 500px;
+        }
+      }
+      #div1 {
+        animation-name: move1;
+        animation-duration: 2s;
+        animation-delay: 2s;
+        animation-timing-function: ease;
+        animation-iteration-count: 1;
+        /* alternete work with directions  position count from both side*/
+        /* animation-direction: alternate; */
+        /* start from opposite side
+        animation-direction: reverse; */
+        /* start from oposite side and counting both side 
+        animation-direction: alternate-reverse; */
+      }
+      @keyframes move2 {
+        from {
+          height: 100px;
+          width: 100px;
+        }
+        to {
+          margin: 10px 0 0 500px;
+        }
+      }
+      #div2 {
+        animation-name: move2;
+        animation-duration: 2s;
+        animation-delay: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+      }
+      @keyframes move3 {
+        from {
+          height: 100px;
+          width: 100px;
+        }
+        to {
+          margin: 10px 0 0 500px;
+        }
+      }
+      #div3 {
+        animation-name: move3;
+        animation-duration: 2s;
+        animation-delay: 2s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: 1;
+      }
+      @keyframes move4 {
+        from {
+          height: 100px;
+          width: 100px;
+        }
+        to {
+          margin: 10px 0 0 500px;
+        }
+      }
+      #div4 {
+        animation-name: move4;
+        animation-duration: 2s;
+        animation-delay: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+      }
+      @keyframes move5 {
+        from {
+          height: 100px;
+          width: 100px;
+        }
+        to {
+          margin: 10px 0 0 500px;
+        }
+      }
+      #div5 {
+        animation-name: move5;
+        animation-duration: 2s;
+        animation-delay: 2s;
+        animation-timing-function: ease-out;
+        animation-iteration-count: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="div1">Div 1 - ease</div>
+    <div id="div2">Div 2 - linear</div>
+    <div id="div3">Div 3 - ease-in</div>
+    <div id="div4">Div 4 - ease-in-out</div>
+    <div id="div5">Div 5 - ease-out</div>
+  </body>
+</html>
