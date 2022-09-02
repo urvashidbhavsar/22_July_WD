@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+    <style>
+      div {
+        height: 200px;
+        width: 300px;
+        border: 1px solid black;
+        padding: 20px;
+        margin: 50px auto;
+      }
+      .p1::first-line {
+        color: blue;
+        font-weight: bold;
+      }
+      p::first-letter {
+        color: brown;
+        font-size: 50px;
+      }
+      p::before {
+        color: blue;
+      }
+      p:hover {
+        color: red;
+        transform: scale(1.5, 1.5);
+      }
+      p::after {
+        word-spacing: 20px;
+        line-height: 1.5;
+      }
+      li::marker {
+        color: red;
+      }
+
+      li::selection {
+        color: red;
+        background-color: burlywood;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p class="p1">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius commodi,
+        minus recusandae omnis aliquam nihil ullam repellendus, voluptatum quod
+        ducimus nostrum animi hic libero magnam ab cumque, sapiente eum. Itaque.
+      </p>
+      <button>Click here</button>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+    </div>
+  </body>
+</html>

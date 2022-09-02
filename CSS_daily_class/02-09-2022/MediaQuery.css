@@ -1,0 +1,79 @@
+/* content adjust with particular device */
+
+/* 
+mobile-screen (576px) max
+    576 min
+tablet (768px) min
+leptop - 11 to 12.5 inch (992px) min
+leptop - 12.5 to 15.5 inch (1200) min
+TV - 1400px
+*/
+
+@media (max-width: 576px) {
+  div {
+    background-color: chartreuse;
+    width: 100%;
+  }
+  p {
+    background-color: cyan;
+    width: 100%;
+  }
+  img {
+    height: 200px;
+    width: 200px;
+  }
+}
+@media (min-width: 576px) {
+  div {
+    background-color: aqua;
+    width: 100%;
+  }
+  p {
+    background-color: yellow;
+    width: 100%;
+  }
+  img {
+    height: 250px;
+    width: 250px;
+  }
+}
+@media (min-width: 768px) {
+  div {
+    background-color: violet;
+    width: 100%;
+  }
+  p {
+    background-color: yellowgreen;
+    width: 100%;
+  }
+  img {
+    height: 300px;
+    width: 300px;
+  }
+}
+@media (min-width: 992px) {
+  div {
+    background-color: chocolate;
+    width: 100%;
+  }
+  p {
+    background-color: cornflowerblue;
+    width: 100%;
+  }
+  img {
+    height: 350px;
+    width: 350px;
+  }
+}
+@media (min-width: 1200px) {
+  div {
+    background-color: bisque;
+  }
+  p {
+    background-color: cadetblue;
+  }
+  img {
+    height: 400px;
+    width: 400px;
+  }
+}
