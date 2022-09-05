@@ -1,0 +1,128 @@
+@media (min-width: 576px) {
+  .main-header {
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-header .image {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-header .image .logoContent {
+    width: 100%;
+  }
+  .main-header .image .nav {
+    width: 100%;
+  }
+  .main-header .image .theme {
+    width: 100%;
+  }
+  .main-header ul {
+    list-style-type: none;
+  }
+  .main-header .theme input[type="text"] {
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+  }
+  .main-header .theme span {
+    font-size: 25px;
+  }
+}
+@media (max-width: 576px) {
+  .main-header {
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-header .image {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-header .image .logoContent {
+    width: 100%;
+  }
+  .main-header .image .nav {
+    width: 100%;
+  }
+  .main-header .image .theme {
+    width: 100%;
+  }
+  .main-header ul {
+    list-style-type: none;
+  }
+  .main-header .theme input[type="text"] {
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+  }
+  .main-header .theme span {
+    font-size: 25px;
+  }
+}
+@media (max-width: 1200px) {
+  .main-header {
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-header .image {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-header .image .logoContent {
+    width: 100%;
+  }
+  .main-header .image .nav {
+    width: 100%;
+  }
+  .main-header .image .theme {
+    width: 100%;
+  }
+  .main-header ul {
+    list-style-type: none;
+  }
+  .main-header .theme input[type="text"] {
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+  }
+  .main-header .theme span {
+    font-size: 25px;
+  }
+}
+@media (min-width: 576px) {
+  .main-header {
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-header .image {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .main-header .image .logoContent {
+    width: 20%;
+  }
+  .main-header .image .nav {
+    width: 50%;
+  }
+  .main-header .image .theme {
+    width: 30%;
+  }
+  .main-header ul {
+    list-style-type: none;
+  }
+  .main-header .theme input[type="text"] {
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+  }
+  .main-header .theme span {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.main-header {
+  background-image: url(images/walldecorations.webp);
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-header .image {
+  opacity: 0.8;
+  background-color: gray;
+  position: fixed;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+}
+.main-header .logoContent {
+  width: 20%;
+}
+.main-header .logoContent a {
+  color: white;
+}
+.main-header .logoContent a span {
+  color: rgb(108, 69, 6);
+}
+.main-header .nav {
+  width: 50%;
+  vertical-align: baseline;
+}
+.main-header .theme {
+  width: 30%;
+}
+.main-header ul {
+  list-style-type: none;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+}
+.main-header li {
+  padding: 20px;
+  display: inline-block;
+}
+.main-header li a {
+  color: white;
+}
+.main-header .theme {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.main-header .theme input[type="text"] {
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+}
+.main-header .theme button {
+  height: 45px;
+  width: 70px;
+  background-color: rgb(108, 69, 6);
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.main-header .theme button:hover {
+  background-color: white;
+  border: 2px solid rgb(108, 69, 6);
+  border-radius: 5px;
+}
+.main-header .theme span {
+  margin-top: 5px;
+  font-size: 25px;
+}
