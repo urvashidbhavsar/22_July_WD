@@ -1,0 +1,450 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.main-header {
+  background-image: url(images/wallpaper.jpg);
+  height: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  position: relative;
+}
+.main-header .image {
+  opacity: 0.8;
+  background-color: rgb(30, 169, 245);
+  position: fixed;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+}
+.main-header .logoContent {
+  width: 20%;
+}
+.main-header .logoContent a {
+  color: white;
+}
+.main-header .logoContent a span {
+  color: rgb(108, 69, 6);
+}
+.main-header .nav {
+  width: 50%;
+  vertical-align: baseline;
+}
+.main-header .theme {
+  width: 30%;
+}
+.main-header ul {
+  list-style-type: none;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+}
+.main-header li {
+  padding: 20px;
+  display: inline-block;
+}
+.main-header li a {
+  color: white;
+}
+.main-header .theme {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.main-header .theme input[type="text"] {
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+}
+.main-header .theme button {
+  height: 45px;
+  width: 70px;
+  background-color: rgb(108, 69, 6);
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.main-header .theme button:hover {
+  background-color: white;
+  border: 2px solid rgb(108, 69, 6);
+  border-radius: 5px;
+}
+.main-header .theme span {
+  margin-top: 5px;
+  font-size: 25px;
+}
+.image-content {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  text-shadow: 5px 5px 5px black;
+}
+.image-content p {
+  margin: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: lowercase;
+}
+.image-content h1 {
+  margin: 5px;
+}
+.image-content .btnstart {
+  background-color: orangered;
+  color: white;
+  border-radius: 40px;
+  height: 50px;
+  width: 120px;
+  font-size: 0.15in;
+}
+.image-content .btncon {
+  background-color: white;
+  color: rgb(2, 2, 36);
+  border-color: rgb(2, 2, 36);
+  border-radius: 40px;
+  height: 50px;
+  width: 120px;
+  font-size: 0.15in;
+}
+.image-content button span {
+  font-size: 15px;
+}
+.image-content .btncon:hover {
+  color: white;
+  background-color: rgb(2, 2, 36);
+  border-color: white;
+}
+.infor-1 {
+  height: 500px;
+  width: 100%;
+}
+.infor-1 p {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(30, 30, 125);
+  font-weight: bolder;
+  margin: 50px 0px 20px 0;
+}
+.infor-1 h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.infor-1 .blog {
+  width: 100%;
+  /* display: flex */
+  display: grid;
+  padding: 40px;
+  grid-template-columns: auto auto auto;
+  gap: 40px; /* row-column*/
+  text-align: center;
+}
+.infor-1 .blog1 {
+  /* width: 30%; */
+  padding: 20px;
+  height: 300px;
+  box-shadow: 0px 5px 2px gray;
+}
+.infor-1 .blog2 {
+  /* width: 30%; */
+  box-shadow: 0px 5px 2px gray;
+  padding: 20px;
+}
+.infor-1 .blog3 {
+  /* width: 30%; */
+  box-shadow: 0px 5px 2px gray;
+  padding: 20px;
+}
+.infor-1 span {
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  height: 70px;
+  width: 70px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.infor-1 .blog1 span {
+  background-color: rgb(5, 78, 107);
+  color: white;
+}
+.infor-1 .blog2 span {
+  background-color: palevioletred;
+  color: white;
+}
+.infor-1 .blog3 span {
+  background-color: orange;
+  color: white;
+}
+.infor-1 .blog .detail {
+  color: gray;
+  text-transform: lowercase;
+  margin: 10px;
+}
+.explore {
+  height: 550px;
+  width: 100%;
+  background-color: rgb(215, 232, 240);
+  padding: 30px;
+  /* margin: 20px; */
+}
+.explore .explore-content {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+}
+.explore .explore-content img {
+  height: 450px;
+  width: 380px;
+  border: none;
+  border-radius: 10px;
+}
+.explore .explore-content .explore-left {
+  margin: 20px;
+}
+.explore .explore-content .explore-right {
+  padding: 20px;
+}
+.explore .explore-right h1 {
+  font-size: 30px;
+  font-family: system-ui;
+  color: black;
+  padding-bottom: 20px;
+}
+.explore .explore-right h5 {
+  text-transform: uppercase;
+  color: blue;
+  padding-bottom: 10px;
+}
+.explore .explore-right p {
+  color: dimgrey;
+  font-family: cursive;
+}
+.explore .explore-right .explore-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+  margin-top: 20px;
+  gap: 30px;
+}
+.explore .explore-right .explore-grid a {
+  font-size: 20px;
+  font-weight: 700;
+  color: blue;
+}
+.explore .explore-right .explore-grid a:hover {
+  color: orangered;
+}
+.pro-rent {
+  height: 600px;
+  width: 100%;
+}
+.pro-rent h5 {
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  text-transform: uppercase;
+  color: blue;
+}
+.pro-rent h1 {
+  text-align: center;
+  font-size: 30px;
+  text-transform: capitalize;
+  color: rgb(0, 0, 25);
+}
+.pro-rent img {
+  height: 200px;
+  width: 295px;
+}
+.pro-rent .card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.pro-rent .card-grid .card {
+  height: 430px;
+  width: 300px;
+  border: 2px solid white;
+  margin: 50px;
+  box-shadow: 0px 5px 5px gray;
+  border-radius: 10px;
+}
+.pro-rent .card .card-body {
+  padding: 12px;
+}
+.pro-rent .card .card-body a {
+  font-size: 20px;
+  font-weight: 700;
+  color: blue;
+}
+.pro-rent .card .card-body a:hover {
+  color: orangered;
+}
+.pro-rent .card .card-body .price {
+  color: dodgerblue;
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.pro-rent .card .card-body p {
+  color: dimgrey;
+  font-family: cursive;
+  padding-bottom: 10px;
+}
+.pro-rent .card .card-body span {
+  color: red;
+}
+.pro-rent .card .card-body b {
+  color: grey;
+}
+.count {
+  height: 250px;
+  background-color: rgb(239, 235, 231);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.count .disp-count {
+  padding: 50px;
+  text-align: center;
+}
+.count .disp-count h1 {
+  font-size: 0.4in;
+  font-weight: 700;
+}
+.count .disp-count p {
+  color: gray;
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+.blog-post {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  /* justify-content: space-around; */
+  margin: 30px;
+  padding: 10px;
+}
+.blog-post .blog1 h5 {
+  color: darkcyan;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.blog-post .blog1 h1 {
+  font-size: 0.4in;
+  color: darkblue;
+  font-family: inherit;
+}
+.blog-post p {
+  color: gray;
+  font-size: 15px;
+}
+.blog-post .date {
+  color: green;
+  font-weight: 700;
+}
+.blog-post a {
+  color: blue;
+  font-size: 30px;
+}
+.blog-post a:hover {
+  color: orangered;
+}
+.blog-post img {
+  height: 200px;
+  width: 250px;
+  border-radius: 10px;
+}
+.blog-post .blog2 {
+  margin-top: 100px;
+  padding: 20px;
+}
+.choose {
+  background-color: rgb(245, 242, 238);
+  padding: 50px;
+}
+.choose .choose-op {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.choose h5 {
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.choose h1 {
+  font-size: 0.4in;
+  color: darkblue;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.choose .ch-op-1 {
+  background-color: white;
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  vertical-align: middle;
+}
+.choose .ch-op-1 span {
+  color: dodgerblue;
+  font-size: 30px;
+  margin: 50px;
+}
+.choose .ch-op-2 span {
+  color: magenta;
+  font-size: 30px;
+  margin: 50px;
+}
+.choose .ch-op-3 span {
+  color: green;
+  font-size: 30px;
+  margin: 50px;
+}
+.choose .text {
+  margin-top: 50px;
+}
+.choose .choose-op .text p {
+  margin-top: 10px;
+}
+.choose .choose-op .text a {
+  color: blue;
+  font-weight: 500;
+}
+.choose .choose-op .text a:hover {
+  color: orangered;
+}
+.choose .ch-op-2 {
+  background-color: white;
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  vertical-align: middle;
+}
+.choose .ch-op-3 {
+  background-color: white;
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  vertical-align: middle;
+}
