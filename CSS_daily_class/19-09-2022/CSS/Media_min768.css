@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+  .main-header {
+    height: 700px;
+    width: 100%;
+  }
+  .main-header .image {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-header .image .logoContent {
+    width: 100%;
+  }
+  .main-header .image .nav {
+    width: 100%;
+    justify-content: left;
+  }
+  .main-header .image .theme {
+    width: 100%;
+    justify-content: left;
+  }
+  .infor-1 .blog {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

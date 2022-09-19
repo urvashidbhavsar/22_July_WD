@@ -1,0 +1,76 @@
+@media (max-width: 576px) {
+  .main-header {
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+  }
+  .main-header .image {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-header .image .logoContent {
+    width: 100%;
+  }
+  .main-header .image .nav {
+    width: 100%;
+    justify-content: left;
+  }
+  .main-header .image .theme {
+    width: 100%;
+    justify-content: left;
+  }
+  .infor-1 .blog {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .explore {
+    width: 100%;
+  }
+  .explore .explore-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+  }
+  .explore .explore-content img {
+    height: 350px;
+    width: 300px;
+  }
+  .explore .explore-content .explore-left {
+    margin: 20px;
+  }
+  .explore .explore-content .explore-right {
+    padding: 20px;
+  }
+  .explore .explore-right h1 {
+    font-size: 30px;
+    font-family: system-ui;
+    color: black;
+    padding-bottom: 20px;
+  }
+  .explore .explore-right h5 {
+    text-transform: uppercase;
+    color: blue;
+    padding-bottom: 10px;
+  }
+  .explore .explore-right p {
+    color: dimgrey;
+    font-family: cursive;
+  }
+  .explore .explore-right .explore-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    margin-top: 20px;
+    gap: 30px;
+  }
+  .explore .explore-right .explore-grid a {
+    font-size: 20px;
+    font-weight: 700;
+    color: blue;
+  }
+  .explore .explore-right .explore-grid a:hover {
+    color: orangered;
+  }
+}
