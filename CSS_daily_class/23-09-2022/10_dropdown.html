@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ul {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+        color: blue;
+      }
+      .btnclick {
+        background-color: aqua;
+        display: inline-block;
+      }
+      .btnhover {
+        background-color: aquamarine;
+      }
+      .btnshow {
+        background-color: bisque;
+        display: none;
+      }
+      .btnclick:hover .btnshow {
+        /* background-color: aquamarine; */
+        display: block;
+        height: auto;
+        width: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li class="btnclick">
+        <a href="" class="btnhover">Products</a>
+        <div class="btnshow">
+          <a href="">Link 1</a>
+          <a href="">Link 2</a>
+          <hr />
+          <a href="">Link 3</a>
+        </div>
+      </li>
+    </ul>
+  </body>
+</html>

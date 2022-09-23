@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        /* create a counter name */
+        counter-reset: sec;
+      }
+      p::before {
+        /* increment a counter value */
+        counter-increment: sec;
+        /* add content on the sec */
+        padding: 5px;
+        content: counter(sec) " ";
+        background-color: black;
+        color: white;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ol ul - list -->
+    <h1>Foods</h1>
+    <p>Pizza</p>
+    <p>Burger</p>
+    <p>Rice</p>
+    <p>Dal</p>
+  </body>
+</html>
