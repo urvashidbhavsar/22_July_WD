@@ -1,0 +1,31 @@
+javascript is a scripting language -> client side 
+
+developed in 1995 by netscape
+1st name - Livescript written in script tag in head section 
+
+write script in 3 ways - 
+inline -> in perticular element write script using event. 
+internal -> write code in script tag in head section 
+external -> create an external file
+using .js extension then link that file in <script src=""></script> tag
+
+javascript is a also object based scripting language.
+
+object -> logical or physical items.
+physical items -> for ex, pc, monitor, mouse, chair, table, person etc
+
+in object -> there is name or its to many functionality 
+person -> is a object.
+name : xyz.
+address: abc
+age : 30
+birthdate : 
+
+logical -> date and time
+
+what is a selectors :
+document.getElementById() - get a value using ID
+document.getElementsByClassName() - get a value by a class name
+document.getElementsByName() - by name
+document.getElementsByTagName() - by tag name
+document.querySelector() - by element, class or id
