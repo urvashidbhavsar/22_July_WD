@@ -1,0 +1,20 @@
+Keywords -> 
+built in word 
+reserved word
+
+what is a variable?
+variable is a container to store a data and it has a changed value.
+
+for ex, this is a javascript language to store one container give its name thisLine
+
+thisline <- this is a javascript language
+
+in javascript, to create a variable used 3 Keywords
+var, let and const.
+
+var keyword is a older -
+let and const introduced in 2015.
+
+give any name of variable.
+wrong variable -> my num, 1mynum, 1_myNum
+right variable -> myNum, MyNum, my_num, my-num, Mynum1, MyNum_1
