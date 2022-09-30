@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- javascript selectors :
+    getElementByID
+    getElementByClass
+    getElementByName
+    getElementByTagName
+    querySelector -->
+
+    <!-- GetelementById -->
+    <p id="p1"></p>
+
+    <p class="p2"></p>
+
+    <script>
+      // only get values by Id
+      document.getElementById("p1").innerHTML = "Hello world";
+
+      //   query selector used element, class and id
+      document.querySelector(".p2").innerHTML = "Query selector";
+    </script>
+  </body>
+</html>

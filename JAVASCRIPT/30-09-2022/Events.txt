@@ -1,0 +1,13 @@
+Events are 4 type - mouse, keyboard, form, window
+
+
+events - generate (click, dblclick, mouseover, mouseout, keypressup, keydown, submit, load)
+
+event handler - whoes handle the events
+click - onclick
+
+submit - onsubmit
+
+load - onload
+
+dblclick - ondblclick

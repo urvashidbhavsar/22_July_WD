@@ -1,0 +1,17 @@
+functions are two type :
+1) built-in
+2) user define
+
+built-in example, write(), getElementById(), writeln() , querySelector() etc
+
+user define - which is created by us.
+syntax :
+
+function func_name(){
+    //statements
+}
+
+-> popupBoxes : there is 3 types
+(1) Alert() - give a alert to the user
+(2) Confirm() - ask a confirmation to the user
+(3) Prompt() - take a input from user
