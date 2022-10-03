@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function check_confirm() {
+        if (confirm("are you sure want to leave this page?")) {
+          // perform 1st button
+
+          document.body.style.backgroundColor = "red";
+        } else {
+          // perform 2nd button
+          document.body.style.backgroundColor = "green";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="check_confirm()">Confirm</button>
+  </body>
+</html>

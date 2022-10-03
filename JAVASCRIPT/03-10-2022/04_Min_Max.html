@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function max_min() {
+        // two ways to get form content in a variable
+
+        // object.form_name.field_name.value
+        // let num1 = document.form1.num1.value;
+        // let num2 = document.form1.num2.value;
+
+        let num1 = document.getElementById("num1").value;
+        let num2 = document.getElementById("num2").value;
+
+        if (num1 < num2) {
+          document.getElementById("res").innerHTML = "num1 is small";
+          return false;
+        } else if (num2 < num1) {
+          document.getElementById("res").innerHTML = "num2 is small ";
+          return false;
+        } else {
+          document.getElementById("res").innerHTML = "both are same ";
+          return false;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <!-- used onsubmit event -->
+    <form action="" name="form1" method="post">
+      <label for="">Number 1 :</label>
+      <input type="text" name="num1" id="num1" />
+      <br /><br />
+
+      <label for="">Number 2 :</label>
+      <input type="text" name="num2" id="num2" />
+      <br /><br />
+
+      <!-- <button type="submit">Result</button> -->
+      <input type="submit" value="Result" onclick="return max_min()" />
+    </form>
+    <p id="res"></p>
+  </body>
+</html>

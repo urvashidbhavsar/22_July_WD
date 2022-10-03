@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function chageVal() {
+        let cval = document.form1.cval.value;
+        document.getElementById("p1").innerHTML = cval;
+        return false;
+      }
+    </script>
+  </head>
+  <body>
+    <form action="" name="form1">
+      <input type="text" name="cval" />
+      <button onclick="return chageVal()">Click here</button>
+    </form>
+    <p id="p1"></p>
+  </body>
+</html>
