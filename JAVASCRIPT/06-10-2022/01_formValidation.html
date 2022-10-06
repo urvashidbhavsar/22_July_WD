@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="FormValidtion.js"></script>
+    <style>
+      p,
+      span {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <form
+      action=""
+      name="form1"
+      method="post"
+      onsubmit="return checkValidation()"
+    >
+      First Name<span>*</span> : <input type="text" name="fname" id="fname" />
+      <p id="p1"></p>
+
+      password<span>*</span> : <input type="password" name="pass" id="pass" />
+      <p id="p2"></p>
+
+      confirm password<span>*</span> :
+      <input type="password" name="cpass" id="cpass" />
+      <p id="p3"></p>
+
+      Gender<span>*</span> : <input type="radio" name="gen" id="" />Male
+      <input type="radio" name="gen" id="" />Female
+      <p id="p4"></p>
+
+      Subjects<span>*</span> : <input type="checkbox" name="c1" id="" />Java
+      <input type="checkbox" name="c2" id="" />Javascript
+      <input type="checkbox" name="c3" id="" />Jquery
+      <p id="p5"></p>
+
+      city<span>*</span> :
+      <select name="city" id="">
+        <option value="-1">---select---</option>
+        <option value="">Mumbai</option>
+        <option value="">Delhi</option>
+      </select>
+      <p id="p6"></p>
+
+      Mobile No<span>*</span>:
+      <input type="text" name="mno" id="" maxlength="10" />
+      <p id="p7"></p>
+
+      email id<span>*</span> :
+      <input type="text" name="email" id="" />
+      <p id="p8"></p>
+
+      <input type="submit" value="Register" />
+    </form>
+  </body>
+</html>
