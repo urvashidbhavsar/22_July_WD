@@ -1,0 +1,22 @@
+@media (min-width: 576px) {
+  .main-header {
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+  }
+  .main-header .image {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .main-header .logoContent {
+    width: 100%;
+  }
+  .main-header .nav {
+    width: 100%;
+  }
+  .main-header .nav li {
+    padding: 10px;
+  }
+}

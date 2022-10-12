@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.main-header {
+  background-image: url(images/wallpaper.jpg);
+  height: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  position: relative;
+}
+.main-header .image {
+  opacity: 0.8;
+  background-color: rgb(30, 169, 245);
+  position: fixed;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  z-index: 2;
+}
+.main-header .logoContent {
+  width: 20%;
+}
+.main-header .logoContent a {
+  color: white;
+}
+.main-header .logoContent a span {
+  color: rgb(108, 69, 6);
+}
+.main-header .nav {
+  width: 80%;
+}
+.main-header ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.main-header li {
+  padding: 20px;
+  /* display: inline-block; */
+}
+.main-header li a {
+  color: white;
+}
+.main-header button {
+  width: 50px;
+  display: none;
+}
+.main-header button span {
+  width: 20px;
+}
+.image-content {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  text-shadow: 5px 5px 5px black;
+}
+.image-content p {
+  margin: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: lowercase;
+}
+.image-content h1 {
+  margin: 5px;
+}
+.image-content .btnstart {
+  background-color: orangered;
+  color: white;
+  border-radius: 40px;
+  height: 50px;
+  width: 120px;
+  font-size: 0.15in;
+}
+.image-content .btncon {
+  background-color: white;
+  color: rgb(2, 2, 36);
+  border-color: rgb(2, 2, 36);
+  border-radius: 40px;
+  height: 50px;
+  width: 120px;
+  font-size: 0.15in;
+}
+.image-content button span {
+  font-size: 15px;
+}
+.image-content .btncon:hover {
+  color: white;
+  background-color: rgb(2, 2, 36);
+  border-color: white;
+}
+/* .open-menu {
+  display: none;
+  background-color: palevioletred;
+  position: absolute;
+  /* left: 0; */
+/* bottom: 0; */

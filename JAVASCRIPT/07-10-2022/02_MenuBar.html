@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/Media_max576.css" />
+    <link rel="stylesheet" href="CSS/Media_min576.css" />
+    <!-- <link rel="stylesheet" href="CSS/Media_min1200.css" />
+    <link rel="stylesheet" href="CSS/Media_min768.css" />
+    <link rel="stylesheet" href="CSS/Media_min992.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/regular.min.css"
+      integrity="sha512-aNH2ILn88yXgp/1dcFPt2/EkSNc03f9HBFX0rqX3Kw37+vjipi1pK3L9W08TZLhMg4Slk810sPLdJlNIjwygFw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="image">
+        <div class="logoContent">
+          <a href=""
+            ><h1>
+              <span class="fa-solid fa-building" style="color: blue"></span>
+              Estate
+            </h1></a
+          >
+        </div>
+        <div class="nav">
+          <ul class="nav-link">
+            <li><a href="">Home</a></li>
+            <li><a href="">Pages</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Content</a></li>
+          </ul>
+        </div>
+        <button class="toggleMenu">
+          <span class="fa-solid fa-bars"></span>
+        </button>
+      </div>
+    </header>
+    <div class="image-content">
+      <p>A higher Quality of living</p>
+      <h1>The Ideal Space To Balance Life, Work And Play.</h1>
+      <p>
+        Semper at. Lorem ipsum dolor sit amet elit elit. Non quae, ad esse et.
+      </p>
+      <button class="btnstart">
+        Get Started <span class="fa-solid fa-arrow-right"></span>
+      </button>
+      <button class="btncon">
+        Contact Us <span class="fa-solid fa-arrow-right"></span>
+      </button>
+    </div>
+
+    <script>
+      let header_menu = document.querySelector(".image");
+      let nav_menu = document.querySelector(".nav");
+      let toggle_menu = document.querySelector(".toggleMenu");
+
+      // toggle_menu.addEventListener("click", function () {
+      //   nav_menu.classList.remove("nav");
+      // });
+
+      toggle_menu.addEventListener("click", function () {
+        nav_menu.classList.toggle("open-menu");
+        // nav_menu.classList.add("open-menu");
+      });
+    </script>
+  </body>
+</html>

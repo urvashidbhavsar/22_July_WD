@@ -1,0 +1,38 @@
+@media (max-width: 576px) {
+  .main-header {
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+  }
+  .main-header .image {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  .main-header .logoContent {
+    width: 80%;
+  }
+  .main-header .nav {
+    width: 20%;
+    display: none;
+  }
+  .main-header .nav li {
+    padding: 10px;
+  }
+  .main-header button {
+    display: block;
+  }
+  .main-header .open-menu {
+    display: block;
+  }
+  .main-header .open-menu .nav-link {
+    display: block;
+    background-color: black;
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    /* transform: translateY(50px); */
+    transition: 1s all ease;
+  }
+}

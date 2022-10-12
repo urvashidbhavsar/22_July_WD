@@ -1,0 +1,1 @@
+cookies means it is a store data in browser.
