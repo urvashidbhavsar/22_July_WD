@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
+    <!-- code -->
+    <script>
+      $(document).ready(function () {
+        $("#btn1").click(function () {
+          //   $(".div1").fadeIn();
+          $(".div1").fadeIn(5000);
+        });
+
+        $("#btn2").click(function () {
+          //   $(".div1").fadeOut();
+          $(".div1").fadeOut(2000);
+        });
+
+        $("#btn3").click(function () {
+          //   $(".div1").fadeOut();
+          $(".div2").fadeToggle(2000);
+        });
+      });
+    </script>
+    <style>
+      .div1,
+      .div2 {
+        display: none;
+        height: 150px;
+        width: 150px;
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="btn1">Fade-in</button>
+    <button id="btn2">Fade-out</button>
+    <button id="btn3">Fade-toggle</button>
+    <hr />
+    <div class="div1"></div>
+    <hr />
+    <div class="div2"></div>
+  </body>
+</html>

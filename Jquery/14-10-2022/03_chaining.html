@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <style>
+      .SlideUp {
+        height: 30px;
+        width: 100%;
+        background-color: blue;
+        color: white;
+        text-align: center;
+      }
+      .SlidingUp {
+        height: 100px;
+        width: 100%;
+        background-color: rgb(62, 62, 6);
+      }
+    </style>
+    <script>
+      $(document).ready(function () {
+        $(".SlideUp").click(function () {
+          $(".SlidingUp").slideUp(2000).slideDown(2000).fadeTo(1000, 0.5);
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <!-- chaning in jquery means -> two or more functions are used together. -->
+    <div class="SlideUp">Slide</div>
+    <div class="SlidingUp"></div>
+  </body>
+</html>

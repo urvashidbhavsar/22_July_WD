@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
+    <!-- code -->
+    <script>
+      $(document).ready(function () {
+        $("#btn1").click(function () {
+          //   $(".div1").fadeIn();
+          $(".div1").fadeIn(5000);
+        });
+      });
+    </script>
+    <style>
+      .div1 {
+        display: none;
+        height: 200px;
+        width: 200px;
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="btn1">Fade-in</button>
+    <hr />
+    <div class="div1"></div>
+  </body>
+</html>

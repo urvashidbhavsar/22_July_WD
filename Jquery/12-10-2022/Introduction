@@ -1,0 +1,28 @@
+what is a Jquery? -it is a library of javascript.
+
+version - 3.6.1
+
+when started (initial date) ? - 2006
+
+jQuery website -> jquery.com
+
+there is a two type of CDN (content delivery network) :
+offline - download full liabrary
+copy code from uncompressed developement link
+-paste all code in jquery.js file
+
+online - provide online link
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+Syntax :
+
+$(document).ready(function(){
+$().click(function(){
+$().built-in-functions()
+})
+})
+
+type $ in each jquery code line and jquery code also written in <script> tag.

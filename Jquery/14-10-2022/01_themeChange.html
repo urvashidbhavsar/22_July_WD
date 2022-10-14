@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <style>
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <span class="fa-solid fa-moon"></span>
+
+    <script>
+      let moon = document.querySelector(".fa-moon");
+      let pagebody = document.querySelector("body");
+
+      moon.addEventListener("click", function () {
+        pagebody.classList.toggle("dark-mode");
+
+        if (pagebody.classList.contains("dark-mode") == true) {
+          moon.classList.remove("fa-moon");
+          moon.innerHTML = "<span class='fa-solid fa-sun'></span>";
+        } else {
+          moon.classList.remove("fa-sun");
+          moon.innerHTML = "<span class='fa-solid fa-moon'></span>";
+        }
+      });
+    </script>
+  </body>
+</html>

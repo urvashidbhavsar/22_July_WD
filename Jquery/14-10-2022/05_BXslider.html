@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <!-- bxslider-cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.css"
+    />
+    <style>
+      img {
+        width: 100%;
+        height: 600px;
+      }
+    </style>
+    <script>
+      $(document).ready(function () {
+        $(".bxslider").bxSlider();
+      });
+      //   $(".bxslider").bxSlider({
+      //     auto: true,
+      //     autoControls: true,
+      //     stopAutoOnClick: true,
+      //     pager: true,
+      //     slideWidth: 600,
+      //   });
+    </script>
+  </head>
+  <body>
+    <div class="bxslider">
+      <div class="sliders">
+        <img src="images/img1.jpg" alt="" />
+      </div>
+      <div class="sliders">
+        <img src="images/img2.webp" alt="" />
+      </div>
+      <div class="sliders">
+        <img src="images/img3.jpg" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
