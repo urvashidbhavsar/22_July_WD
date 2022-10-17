@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <style>
+      .head1 {
+        color: blue;
+        background-color: aqua;
+      }
+      .para {
+        color: red;
+        background-color: yellow;
+        font-size: 20px;
+      }
+    </style>
+    <script>
+      $(document).ready(function () {
+        $("#add").click(function () {
+          $("h1").addClass("head1");
+        });
+        $("#remove").click(function () {
+          $("h1").removeClass("head1");
+        });
+        $("#toggle").click(function () {
+          $("p").toggleClass("para");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <!-- css classes -> addclass(), removeclass(), toggleclass() -->
+
+    <button id="add">Add Class</button>
+    <button id="remove">Remove Class</button>
+    <button id="toggle">Toggle Class</button>
+
+    <hr />
+
+    <h1>Hello world</h1>
+    <p>Hello world</p>
+
+    <h2>Hello world</h2>
+
+    <p>Hello world</p>
+
+    <h6>Hello world</h6>
+  </body>
+</html>

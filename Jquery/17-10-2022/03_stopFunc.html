@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#log_button").click(function () {
+          $(".login").slideDown(5000);
+          // $(".login").show(2000);
+          // $(".login").fadeIn(2000);
+        });
+        $("#stop").click(function () {
+          $(".login").stop();
+        });
+      });
+    </script>
+    <style>
+      div.login {
+        height: 300px;
+        width: 300px;
+        border: 2px solid blue;
+        padding: 20px;
+        margin: 150px auto 0px auto;
+        display: none;
+      }
+      .text {
+        padding-top: 20px;
+      }
+      input[type="password"],
+      [type="text"] {
+        height: 20px;
+        width: 280px;
+        border-radius: 10px;
+        padding: 10px;
+        border: 1px solid gray;
+      }
+      input[type="submit"] {
+        height: 30px;
+        width: 300px;
+        border-radius: 10px;
+        border: transparent;
+        background-color: blue;
+        color: white;
+      }
+      input[type="submit"]:hover {
+        background-color: transparent;
+        color: blue;
+        border: 2px solid blue;
+      }
+      span {
+        color: red;
+      }
+      #log_button,
+      #stop {
+        background-color: blue;
+        color: white;
+        border: none;
+        height: 30px;
+        width: 100px;
+      }
+    </style>
+    <script>
+      function check_login() {
+        let uname = document.form1.uname.value;
+        if (uname == "") {
+          document.getElementById("uname").innerHTML = "Enter username";
+          document.getElementById("uname").innerHTML =
+            "<style>#u_name{border: 1px solid red;}</style>";
+          return false;
+        }
+        let pass = document.form1.pass.value;
+        if (pass == "") {
+          document.getElementById("pass").innerHTML = "Enter password";
+          document.getElementById("pass").innerHTML =
+            "<style>#passw{border: 1px solid red;}</style>";
+          //   document.form1.pass.focus();
+          return false;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <button id="log_button">Login</button>
+    <button id="stop">Stop to Slide</button>
+    <div class="login">
+      <h2>Login</h2>
+      <form action="" name="form1">
+        <div class="text">
+          <input
+            type="text"
+            name="uname"
+            id="u_name"
+            placeholder="Enter user name"
+          />
+          <span id="uname"></span>
+        </div>
+        <div class="text">
+          <input
+            type="password"
+            name="pass"
+            id="passw"
+            placeholder="Enter Password"
+          />
+          <span id="pass"></span>
+        </div>
+        <div class="text">
+          <input
+            type="submit"
+            name=""
+            id=""
+            value="Login"
+            onclick="return check_login()"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

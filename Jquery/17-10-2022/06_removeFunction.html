@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#empty").click(function () {
+          $("div").empty();
+        });
+        $("#remove").click(function () {
+          $("div").remove();
+        });
+      });
+    </script>
+    <style>
+      div {
+        height: 200px;
+        width: 200px;
+        background-color: aquamarine;
+        padding: 20px;
+        border: 2px solid tomato;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- remove functions are : remove() and empty()-->
+    <button id="empty">Empty</button>
+    <button id="remove">Remove</button>
+
+    <hr />
+    <div>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae
+        deleniti, iure eius nobis dignissimos labore veritatis, sed possimus qui
+        magni obcaecati excepturi sequi dolores quas porro similique et ipsam
+        nihil.
+      </p>
+    </div>
+  </body>
+</html>

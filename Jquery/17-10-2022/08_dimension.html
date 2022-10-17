@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#dime").click(function () {
+          var txt = "";
+          txt += "height : " + $("div").height() + "<br>";
+          txt += "width : " + $("div").width() + "<br>";
+          //   it count content and padding
+          txt += "innerheight : " + $("div").innerHeight() + "<br>";
+          txt += "innerwidth : " + $("div").innerWidth() + "<br>";
+          txt += "outerheight : " + $("div").outerHeight() + "<br>";
+          txt += "outerwidth : " + $("div").outerWidth() + "<br>";
+          txt += "outerheight : " + $("div").outerHeight(true) + "<br>";
+          txt += "outerwidth : " + $("div").outerWidth(true) + "<br>";
+
+          $("div").html(txt);
+        });
+      });
+    </script>
+    <style>
+      div {
+        height: 200px;
+        width: 200px;
+        border: 5px solid tomato;
+        padding: 20px;
+        margin: 20px;
+        background-color: lightgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="dime">Get Dimension</button>
+    <hr />
+    <div></div>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <style>
+      img {
+        height: 150px;
+        width: 200px;
+      }
+    </style>
+    <script>
+      $(document).ready(function () {
+        $("#append").click(function () {
+          $("p").append("<span>!!!</span>");
+        });
+        $("#prepand").click(function () {
+          $("p").prepend("<span>@</span>");
+        });
+        $("#before").click(function () {
+          $("img").before("<span>@</span>");
+        });
+        $("#after").click(function () {
+          $("img").after("<span>@</span>");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <!-- add functions are : append(), prepand(), before(), after() -->
+
+    <button id="append">Append</button>
+    <button id="prepand">Prepand</button>
+    <button id="before">Before</button>
+    <button id="after">After</button>
+
+    <hr />
+    <p>Hello world</p>
+
+    <hr />
+    <img src="../14-10-2022/images/img1.jpg" alt="" />
+  </body>
+</html>
