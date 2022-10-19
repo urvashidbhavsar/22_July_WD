@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script>
+      $(document).ready(function () {
+        // $("header").find("span").css("border", "2px solid red");
+        $(".main-div").children().css("border", "2px solid red");
+      });
+    </script>
+    <style>
+      div,
+      h1,
+      h2,
+      span,
+      p {
+        border: 2px solid rgb(196, 194, 194);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="main-div">
+        <div class="div1">
+          <h1>heading 1</h1>
+          <h2>Heading 2</h2>
+        </div>
+        <div class="div2">
+          <p>para 1</p>
+          <p>para 2</p>
+          <div class="sub-div2">
+            <span>*</span>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
