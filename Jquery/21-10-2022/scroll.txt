@@ -1,0 +1,13 @@
+$(function(){
+var $navbar = $('.menu-list');
+$(window).scroll(function(event){
+var $current = $(this).scrollTop()
+if($current > 0)
+{
+$navbar.addClass('menu-fixed');
+}
+else{
+$navbar.removeClass('menu-fixed');
+}
+});
+})
