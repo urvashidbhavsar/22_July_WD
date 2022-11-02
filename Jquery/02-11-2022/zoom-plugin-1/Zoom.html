@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <!-- demo folder css file -->
+    <link rel="stylesheet" href="demo/styles/index.css" />
+    <link rel="stylesheet" href="demo/styles/prism.css" />
+    <!-- demo folder js file -->
+    <!-- <script src="demo/scripts/index.js"></script> -->
+    <!-- <script src="demo/scripts/prism.js"></script> -->
+
+    <!-- lib folder file -->
+    <script src="lib/blowup.min.js"></script>
+    <script src="lib/blowup.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".demo-img").blowup();
+      });
+    </script>
+  </head>
+  <body>
+    <img src="images/img2.webp" alt="" class="demo-img" />
+
+    <img src="images/img3.jpg" alt="" class="demo-img" />
+  </body>
+</html>
