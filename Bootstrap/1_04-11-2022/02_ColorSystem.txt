@@ -1,0 +1,8 @@
+primary
+secondary
+info
+success
+warning
+light
+dark
+muted
