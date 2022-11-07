@@ -1,0 +1,27 @@
+grid system - work like display grid
+in this grid system there are creating 12 columns
+limit - 12 columns
+
+
+container ->
+class - container -> margin/max-width
+class - container-fluid -> width
+
+make responsive website using bootstrap
+
+size ->  in css
+max-width (576px)
+min-width (576px)
+min-width (768px)
+min-width (992px)
+min-width (1200px)
+
+bootstrap size-classes ->
+
+class 
+      set auto value -> max-width (576px)             - less than
+sm -> min-width (576px)             - small screen
+md -> min-width (768px)             - medium screen
+lg -> min-width (992px)             - large screen
+xl -> min-width (1200px)            - extra large
+xxl -> min-width (1400px)           - extra extra large screen
