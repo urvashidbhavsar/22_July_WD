@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- bootstrap css cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font-awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- alert part -->
+    <div
+      class="alert alert-primary alert-dismissible fade show text-center"
+      role="alert"
+    >
+      Free shipping for all orders from $60+
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="alert"
+        aria-label="Close"
+      ></button>
+    </div>
+
+    <!-- menubar -->
+    <!-- <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse nav-col" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Features</a>
+              </li>
+            </ul>
+            <div class="logo text-center">
+            <a class="navbar-brand" href="#"><img src="images/logo.avif" alt="">
+            </a>
+        </div>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+        </div>
+      </nav> -->
+
+    <div class="header-nav">
+      <div class="container-fluid">
+        <div class="nav-menu">
+          <div class="nav1">
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Shop</a></li>
+              <li><a href="">Product</a></li>
+              <li><a href="">Pages</a></li>
+              <li><a href="">Blogs</a></li>
+              <li><a href="">Features</a></li>
+            </ul>
+          </div>
+          <div class="logo text-center">
+            <img src="images/logo.avif" alt="" />
+          </div>
+          <div class="icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-star position-relative">
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                >0
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </i>
+            <i class="fa-solid fa-bag-shopping"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- home page -->
+    <section class="Homepage">
+      <div class="Home-info">
+        <div class="row">
+          <div class="col-auto col-sm-12 col-md-8 col-lg-7 col-xl-7">
+            <img src="images/homeimg.webp" alt="" />
+          </div>
+          <div class="col-auto col-sm-12 col-md-8 col-lg-5 col-xl-5 p-4 my-3">
+            <h1>Enjoy your bed time like never before!</h1>
+            <p class="py-4 me-5 text-secondary">
+              Lush, rare, unique and always fresh. Stop into our store to find
+              the perfect plant for your home or office.
+            </p>
+            <button class="shop">SHOP THE LOOK</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- category Section -->
+    <section class="category">
+      <div class="container">
+        <div class="row">
+          <div class="text-center my-5">
+            <h5>SHOP BY CATEGORIES</h5>
+            <h1>Bedsheets you are going to enjoy!</h1>
+          </div>
+          <div class="row images">
+            <div class="col-auto col-sm-6 col-md-4 col-lg-2 col-xl-2">
+              <img src="images/cat1.avif" alt="" />
+              <!-- <h3>Pillow</h3> -->
+            </div>
+            <div class="col-auto col-sm-6 col-md-4 col-lg-2 col-xl-2">
+              <img src="images/cat2.avif" alt="" />
+            </div>
+            <div class="col-auto col-sm-6 col-md-4 col-lg-2 col-xl-2">
+              <img src="images/cat3.avif" alt="" />
+            </div>
+            <div class="col-auto col-sm-6 col-md-4 col-lg-2 col-xl-2">
+              <img src="images/cat5.avif" alt="" />
+            </div>
+            <div class="col-auto col-sm-6 col-md-4 col-lg-2 col-xl-2">
+              <img src="images/catr.avif" alt="" />
+            </div>
+            <div class="col-auto col-sm-6 col-md-4 col-lg-2 col-xl-2">
+              <img src="images/catr.avif" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="vat-price-select m-5 p-3">
+      <div
+        class="container container-lg container-md container-sm container-xl"
+      >
+        <div class="row">
+          <div class="col-auto col-sm-12 col-md-8 col-lg-6 col-xl-6">
+            <div class="image position-relative">
+              <img src="images/img1.webp" alt="" class="" />
+              <div class="text position-absolute w-50 mt-5 ms-3">
+                <h3>We know whats look great in bed</h3>
+                <button>Discover Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-auto col-sm-12 col-md-8 col-lg-6 col-xl-6">
+            <div class="image position-relative">
+              <img src="images/img2.webp" alt="" class="" />
+              <div class="text position-absolute w-50 mt-5 ms-3">
+                <h3>We know whats look great in bed</h3>
+                <button>Discover Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="middle-link m-5 p-3 text-center">
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-light">
+          <h1>Best Sellers</h1>
+        </button>
+        <button type="button" class="btn btn-light text-secondary">
+          <h1>New Arrivals</h1>
+        </button>
+        <button type="button" class="btn btn-light text-secondary">
+          <h1>Sale Items</h1>
+        </button>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="row"></div>
+      <div class="col-auto text-center">
+        <h3>
+          The piece of comfort you can always enjoy.<br />
+          Sleep well, walk up with a lot of energy
+        </h3>
+      </div>
+    </section>
+
+    <section class="summer-col m-5 p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-auto col-sm-12 col-md-8 col-lg-6 col-xl-6">
+            <img src="images/img3.webp" alt="" />
+            <div class="text-center py-4">
+              <h5>Summer collection</h5>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="col-auto col-sm-12 col-md-8 col-lg-6 col-xl-6">
+            <img src="images/img4.webp" alt="" />
+            <div class="text-center py-4">
+              <h5>Staff Picks</h5>
+              <button>Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footerp-page bg-black text-white p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-auto col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <h3 class="pb-2">About</h3>
+            <ul class="list-unstyled">
+              <li class="pb-2">
+                <a href="" class="text-white"> My Account </a>
+              </li>
+              <li class="pb-2"><a href="" class="text-white"> Cart</a></li>
+              <li class="pb-2"><a href="" class="text-white"> Wishlist</a></li>
+              <li class="pb-2">
+                <a href="" class="text-white"> Product Compare</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-auto col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <h3>Information</h3>
+            <ul class="list-unstyled">
+              <li class="pb-2">
+                <a
+                  href=""
+                  class="text-white"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  >Register</a
+                >
+              </li>
+              <li class="pb-2"><a href="" class="text-white">Login</a></li>
+              <li class="pb-2"><a href="" class="text-white">My Cart</a></li>
+              <li class="pb-2"><a href="" class="text-white">Wishlist</a></li>
+              <li class="pb-2">
+                <a href="" class="text-white">Product Compare</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-auto col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <p class="display-6">Don't miss a thing</p>
+            <p class="text-secondary">
+              Enter your email below to be the first to know about new
+              collections and product launches.
+            </p>
+            <form action="">
+              <div class="input-group mb-3">
+                <span class="input-group-text bg-black" id="basic-addon1"
+                  ><i class="fa-solid fa-envelope text-white"></i
+                ></span>
+                <input
+                  type="text"
+                  class="form-control bg-black text-white"
+                  placeholder="Email"
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                />
+                <button class="input-group-text bg-black">
+                  <i class="fa-solid fa-arrow-right text-white"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Registration Here
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- <iframe src="RegistrationForm.html"></iframe> -->
+            <form
+              action=""
+              name="form1"
+              class="p-3 needs-validation"
+              novalidate
+            >
+              <!-- label -->
+              <div class="row">
+                <div class="col-auto">
+                  <label for="" class="form-label">Full name</label>
+                </div>
+              </div>
+              <!-- full name input text -->
+              <div class="row">
+                <div class="col-auto col-sm-12 col-md-6 col-lg-4 col-xl-4 p-2">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="First name"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="col-auto col-sm-12 col-md-6 col-lg-4 col-xl-4 p-2">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Middle name"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="col-auto col-sm-12 col-md-6 col-lg-4 col-xl-4 p-2">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Last name"
+                    class="form-control"
+                    required
+                  />
+                </div>
+              </div>
+              <!-- gender -->
+              <div class="row">
+                <div class="col-auto">
+                  <label for="" class="form-label">Gender</label>
+                </div>
+              </div>
+              <!-- input type radio -->
+              <div class="row">
+                <div class="col-auto">
+                  <div class="">
+                    <!-- used in div class -> form-check -->
+                    <input
+                      type="radio"
+                      name="gen"
+                      class="form-check-input"
+                      id="male"
+                    />
+                    <label for="male" class="form-label">Male</label>
+                    <input
+                      type="radio"
+                      name="gen"
+                      class="form-check-input"
+                      id="female"
+                    />
+                    <label for="female" class="form-label">Female</label>
+                  </div>
+                </div>
+              </div>
+              <!-- mobile label -->
+              <div class="row">
+                <div class="col-auto">
+                  <label for="" class="form-label">Mobile No</label>
+                </div>
+              </div>
+
+              <!-- mobile input -->
+              <div class="row">
+                <div
+                  class="col-auto col-sm-12 col-md-12 col-lg-12 col-xl-12 p-2"
+                >
+                  <div class="input-group mb-3">
+                    <label class="input-group-text"> +91 </label>
+                    <input type="text" class="form-control" />
+                  </div>
+                </div>
+              </div>
+
+              <!-- address label -->
+              <div class="row">
+                <div class="col-auto">
+                  <label class="form-label">Address</label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div
+                  class="col-auto col-sm-12 col-md-12 col-lg-12 col-xl-12 p-2"
+                >
+                  <textarea
+                    name=""
+                    class="form-control"
+                    id=""
+                    cols="30"
+                    rows="5"
+                  ></textarea>
+                </div>
+              </div>
+
+              <!-- city label -->
+              <div class="row">
+                <div class="col-auto">
+                  <label class="form-label">City</label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div
+                  class="col-auto col-sm-12 col-md-12 col-lg-12 col-xl-12 p-2"
+                >
+                  <select name="" id="" class="form-select">
+                    <option value="">---select---</option>
+                    <option value="">Baroda</option>
+                    <option value="">Pune</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="row">
+                <div
+                  class="col-auto col-sm-12 col-md-12 col-lg-12 col-xl-12 p-2"
+                >
+                  <input
+                    type="checkbox"
+                    name=""
+                    id=""
+                    class="form-check-input"
+                  />
+                  <label for="" class="form-label">I am not a robot</label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success">Register</button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
