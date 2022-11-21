@@ -1,0 +1,30 @@
+introduction ->
+
+how many ways to apply script-> inline, inrternal, external
+noscript tag
+variables
+keywords
+which keywords are used to create variables.
+let   -> 2015
+const
+var -> older
+
+datatype
+operators
+conditional statement
+functions -> 
+predefine / built-in 
+write(), isnan(), focus(), writeln, log()
+
+user define
+
+events -> window, mouse, keyboard, form
+events handler ->which is handle to events 
+ex, onclick, onsubmit
+
+popup boxes 
+
+toggle menubar
+theme change
+hide/show password
+

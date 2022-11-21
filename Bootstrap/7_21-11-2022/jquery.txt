@@ -1,0 +1,32 @@
+jquery is a library of javascript
+
+version -> 3.6.1
+
+jquery.com
+
+cdn-> (content delivery network)
+offline -> download package
+online -> cdnjs website or original website copy its link
+
+functions ->>>
+predefine functions
+
+display func -> hide(), show(), toggle()
+fade -> fadein(), fadeout(), fadetoggle(), fadeTo()
+slide -> slideup(), slidedown(), slideToggle()
+add functions -> append(), prepand(), before(), after()
+remove functions -> remove(), empty()
+css function -> css()
+add css classes -> addclass(), removeclass(), toggleclass()
+
+topic -> traversing
+ancestor -> parents(), parent(), perentsuntil()
+descendent-> find(), children()
+siblings -> siblings(), next(), nextall(), nextuntil(), prev(), prevall(), prevuntil()
+filter -> filter(),first(), last(), eq(), not()
+
+get or set function -> html(), text(), val()
+
+ajax -> how to load ajax
+
+change menubar background color on scroll

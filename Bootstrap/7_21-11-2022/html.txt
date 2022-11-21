@@ -1,0 +1,45 @@
+html -> make a strucuture in browser.
+html -> started in 1993, tim berner lee
+
+
+topics ->
+basic tag -> <p>, <pre>
+formatting tag -> <b>,<i>,<u>,<strong>,<em>,<ins>,<small>,<big>,<abbr>,<sup>,<sub>,<code>,<kbd>,<tt>,<del>,<strike>,<mark>
+<img>
+<a>
+favicon -> set logo in tab
+<!doctype> -> not a document type
+list -> <ul> <ol> <li> <dl>,<dd>,<dt>
+<audio> and <video> -> <source>
+<table> -> row -> <tr> column <td>
+    bold heading -> <th>
+    <tbody>
+    join a row -> rowspan
+    join a column -> colspan
+
+html forms ->
+<input>, <textarea>, <select>-<option> -make a dropdown list
+<form>
+
+<form> -> name, action, method = get/post
+    get -> display html form value in url
+    post -> send all information of html form to the next page.
+
+input types -> text, password, color, date , date-time local, datetime, email etc..
+
+other tags ->
+<progress>, <legend>-<fieldset>, <figure>-<figcaption>, <details>..<summary>
+imageMap, marquee
+
+
+which tag are dropped or remove from HTML5?? andwhich attributes are remove from HTML5?
+
+<center>, <strike>, <tt>, <marquee>
+click on link for more info ->
+https://www.tutorialspoint.com/html5/html5_deprecated_tags.htm#:~:text=Deprecated%20Attributes&text=Some%20attributes%20from%20HTML4%20are,they%20have%20been%20removed%20completely.&text=img%20and%20iframe.&text=caption%2C%20iframe%2C%20img%2C%20input,%2C%20th%2C%20thead%20and%20tr.
+
+
+
+
+
+

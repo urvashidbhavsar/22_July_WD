@@ -1,0 +1,19 @@
+bootstrap -> css library.
+
+version -> 5.2.2
+ 
+
+website -> getbootstrap.com
+
+cdn -> 
+offline -> package download
+online -> cdn copy from original website
+
+docs -> tab all codes are there
+
+data-bs-dismiss -> close
+data-bs-toggle -> add and remove
+data-bs-target -> open targeting element value "#id_name"-> elements
+data-bs-title -> give a title of particular element
+data-bs-placement 
+data-bs-custom-class

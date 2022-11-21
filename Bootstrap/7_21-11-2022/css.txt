@@ -1,0 +1,33 @@
+properties :-
+(1) background
+(2) border
+(3) padding
+(4) margin
+(5) box model
+(6) outline
+(7) overflow
+(8) float
+(9) pseudo classes
+(10) pseudo elements
+(11) height, width
+(12) font awesome
+(13) transition
+(14) transform
+(15) Animation
+(16) line-height
+(17) word-spacing
+(18) letter-spacing
+(19) text
+(20) font
+(21) position
+(22) left, top, bottom, right
+(23) display -> inline, inline-block, block, flex, grid
+(24) flex 
+(25) grid-templete-column 
+(26) grid-templete-row
+(27) gap -> row-gap, column-gap
+(28) justify-content -> flex
+(29) align-item -> flex
+(30) justify-item -> grid
+
+
